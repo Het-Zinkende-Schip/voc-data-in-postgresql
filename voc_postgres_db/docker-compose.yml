@@ -1,0 +1,24 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: postgres-voc
+    ports:
+      - "6543:5432"
+    volumes:
+      - ./sql:/docker-entrypoint-initdb.d
+      - ./dataset/csv/enriched:/csv
+      - pgdata:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_DB: voc
+      TZ: Europe/Amsterdam
+    command: ["postgres", "-c", "log_statement=all", "-c", "log_destination=stderr"]
+    healthcheck:
+      test: ["CMD", "pg_isready", "-q", "-d", "voc", "-U", "postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  pgdata:

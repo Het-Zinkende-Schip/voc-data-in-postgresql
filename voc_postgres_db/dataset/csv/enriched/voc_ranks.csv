@@ -1,0 +1,201 @@
+rank_id,rank,parent_rank,category,subcategory,hisco,hisco_uri,rank_nl,rank_description_nl,rank_description_eng,median_wage
+1,(all occupations),(all occupations),,other,,,(alle functies),,,
+2,(house)painter,(house)painter,OTHER,craftsmen (on shore),93120,https://iisg.amsterdam/resource/hisco/code/hisco/93120,(klad)schilder,,(dutch:(klad)schilder) craftsman,14.0
+3,(other),(other),OTHER,other,,,(anders),De functie wordt vermeld in Opmerkingen,the occupation is mentioned in remarks,22.0
+4,(unknown),(unknown),,other,,,(onbekend),de functie wordt in het scheepssoldijboek niet vermeld,the occupation is not mentioned in the ship's pay-ledger,12.0
+5,appointee,appointee,OTHER,other,20110,https://iisg.amsterdam/resource/hisco/code/hisco/20110,appointe,,(dutch: appointe) appointed person,10.0
+6,apprentice helmsman,third mate,SEA,officers,04200,https://iisg.amsterdam/resource/hisco/code/hisco/04200,halfwaak,vermoedelijk stuurmansleerling,(dutch: halfwaak),26.0
+7,apprentice surgeon,junior barber-surgeon,MEDICAL,medical,06105,https://iisg.amsterdam/resource/hisco/code/hisco/06105,barberot,chirurgijnsleerling,(dutch: barberot) trainee surgeon for performing medical operations,14.0
+8,armourer,weapon maker,MILITARY,military craftsmen,83990,https://iisg.amsterdam/resource/hisco/code/hisco/83990,zwaardveger,ambachtsman die slag- en steekwapens assembleert.,(dutch: zwaardveger) craftsman who assembles slaying (swords) and stabbing (spears) weapons,14.0
+9,artillery corporal,artillery corporal,MILITARY,non-commissioned military officers,58330,https://iisg.amsterdam/resource/hisco/code/hisco/58330,korporaal van de artillerie,,,
+10,artilleryman,soldier,MILITARY,soldiers,58300,https://iisg.amsterdam/resource/hisco/code/hisco/58300,artillerie-handlanger,,,9.0
+11,assayer,assayer,OTHER,craftsmen (on shore),73490,https://iisg.amsterdam/resource/hisco/code/hisco/73490,essayeur,,,40.0
+12,assistant barber-surgeon,barber-surgeon,MEDICAL,medical,06213,https://iisg.amsterdam/resource/hisco/code/hisco/06213,onderbarbier,"medische zorg, helper van de chirurgijn","(dutch: onderbarbier) medical care, assists the surgeon",26.0
+13,assistant steward,junior steward,SHIP,food and service,54060,https://iisg.amsterdam/resource/hisco/code/hisco/54060,botteliersmaat,helper van de bottelier,(dutch: botteliersmaat) helps the steward,14.0
+14,assistant to the (chief) merchant (orig.: schrijver),merchant's assistant,TRADE,trade,30000,https://iisg.amsterdam/resource/hisco/code/hisco/30000,schrijver,lage administratieve functie,(dutch: pennist),24.0
+15,assistant to the (chief) merchant,merchant's assistant,TRADE,trade,30000,https://iisg.amsterdam/resource/hisco/code/hisco/30000,assistent,helper van de (opper)koopman,(dutch: assistent) clerk assisting the (chief) merchant or trader,24.0
+16,barber-surgeon,barber-surgeon,MEDICAL,medical,06210,https://iisg.amsterdam/resource/hisco/code/hisco/06210,barbier,"chirurgijn, medische zorg",(dutch: barbier) medical care and operations,26.0
+17,blacksmith,smith,OTHER,craftsmen,83110,https://iisg.amsterdam/resource/hisco/code/hisco/83110,grofsmid,handwerksman,(dutch: grofsmit) craftsman,14.0
+18,block maker,block maker,OTHER,craftsmen,81990,https://iisg.amsterdam/resource/hisco/code/hisco/81990,blokmaker,"blok betekent katrol, handwerksman","(dutch: blokmaker) tradesman who makes lifting, hauling or pulley blocks",14.0
+19,boatswain,boatswain,SEA,non-commissioned officers,98120,https://iisg.amsterdam/resource/hisco/code/hisco/98120,bootsman,"heeft het toezicht op de bootsgezellen; toezicht op zeil en treil van de grote mast, dat wil zeggen, alles dat behoort bij de grote mast",(dutch: bootsman),22.0
+20,boatswain (foremast),boatswain,SEA,non-commissioned officers,98120,https://iisg.amsterdam/resource/hisco/code/hisco/98120,schieman,verantwoordelijk voor de fokkenmast,(dutch: schieman) responsible for the foremast,22.0
+21,boatswain's mate,junior boatswain,SEA,non-commissioned officers,98120,https://iisg.amsterdam/resource/hisco/code/hisco/98120,bootsmansmaat,"helper van de bootsman, speciaal belast met het toezicht over en zorg voor het tuig van de grote mast",(dutch: bootsmansmaat),14.0
+22,boatswain's mate (foremast),junior boatswain,SEA,non-commissioned officers,98120,https://iisg.amsterdam/resource/hisco/code/hisco/98120,schiemansmaat,"helper van de schieman, verantwoordelijk voor de boegspriet","(dutch: schiemansmaat) assists the boatswain's mate, responsible for the bowsprit.",14.0
+23,bombardier,bombardier,MILITARY,non-commissioned military officers,58340,https://iisg.amsterdam/resource/hisco/code/hisco/58340,bombardier,,(dutch: bombardier),24.0
+24,bookkeeper,bookkeeper,OTHER,general,33110,https://iisg.amsterdam/resource/hisco/code/hisco/33110,boekhouder,"administratie van goederen, lonen en voedsel","(dutch: boekhouder) accounts administration of goods, wages, and food.",60.0
+25,boy guard,junior steward,SHIP,food and service,54060,https://iisg.amsterdam/resource/hisco/code/hisco/54060,kajuitwachter,Jongen,(dutch: kajuitwachter) boy guard of the captain's quarters,14.0
+26,brass-founder,smith,OTHER,craftsmen,72420,https://iisg.amsterdam/resource/hisco/code/hisco/72420,geelgieter,ambachtsman die gietwaren uit geel koper of messing vervaardigt,(dutch: geelgieter) craftsman who casts copper or brassware,14.0
+27,bricklayer,bricklayer,OTHER,craftsmen (on shore),95120,https://iisg.amsterdam/resource/hisco/code/hisco/95120,metselaar,handwerksman,(dutch: metselaar) artisan,14.0
+28,cabin steward,junior steward,SHIP,food and service,54060,https://iisg.amsterdam/resource/hisco/code/hisco/54060,hofmeester,bediening / verzorging van officieren en passagiers,(dutch: hofmeester),14.0
+29,cabinet maker,cabinet maker,OTHER,craftsmen,95455,https://iisg.amsterdam/resource/hisco/code/hisco/95455,schrijnwerker,meubel- en kastenmaker,(dutch: schrijnwerker orv kastenmaker) craftsman,14.0
+30,cadet,officer cadet,MILITARY,non-commissioned military officers,58330,https://iisg.amsterdam/resource/hisco/code/hisco/58330,cadet (militair),militair die tot officier wordt opgeleid,,12.0
+31,cadet corporal,lance-corporal,MILITARY,non-commissioned military officers,58330,https://iisg.amsterdam/resource/hisco/code/hisco/58330,cadet caporal (militair),,(originell: cadet caporal (militair)) military,12.0
+32,captain (military),military captain,MILITARY,military officers,58320,https://iisg.amsterdam/resource/hisco/code/hisco/58320,kapitein (militair),militair officier,(dutch: kapitein (militair)) military,80.0
+33,ship carpenter (orig.: timmerman),junior ship carpenter,SHIP,craftsmen,95455,https://iisg.amsterdam/resource/hisco/code/hisco/95455,timmerman,"verantwoordelijk voor de romp, pompen en ander houtwerk",(dutch: timmerman),28.0
+34,ship-carpenter's mate,junior ship carpenter,SHIP,craftsmen,95455,https://iisg.amsterdam/resource/hisco/code/hisco/95455,onder(scheeps)timmerman,helper van de oppertimmerman,(dutch: ondertimmerman) helps the senior carpenter,28.0
+35,cartridge-box craftsman,weapon maker,MILITARY,military craftsmen,80310,https://iisg.amsterdam/resource/hisco/code/hisco/80310,patroontasmaker,handwerksman,(dutch: patroontasmaker) craftsman,14.0
+36,cartwright,cartwright,OTHER,craftsmen (on shore),81925,https://iisg.amsterdam/resource/hisco/code/hisco/81925,wagenmaker,"handwerksman die wagens maakt, ook wel rademaker",(dutch: wagenmaker) craftsman,14.0
+37,cavalry captain,cavalry captain,MILITARY,military officers,58320,https://iisg.amsterdam/resource/hisco/code/hisco/58320,ritmeester,militaire officier die bevel voert over een compagnie ruiters,(dutch: ritmeester) military,
+38,chief merchant,senior merchant,TRADE,trade,41020,https://iisg.amsterdam/resource/hisco/code/hisco/41020,supercarga,Koopman (zie aldaar) belast met de verkoop van de lading,,135.0
+39,chinese seaman,chinese seaman,SEA,Asian sailors,98135,https://iisg.amsterdam/resource/hisco/code/hisco/98135,chinese zeeman,,,
+40,clergyman/preacher,clergyman/preacher,OTHER,general,14120,https://iisg.amsterdam/resource/hisco/code/hisco/14120,predikant,"geestelijke zorg; niet zo vaak aan boord, meestal vervangen door ziekentrooster / krankbezoeker.","spirtual care, rarely onboard, usually replaced by a comforter for the sick",90.0
+41,coachman,coachman,OTHER,general (on shore),,,wagenrijder,bestuurt paard en wagen,,
+42,colonel,colonel,MILITARY,military officers,58320,https://iisg.amsterdam/resource/hisco/code/hisco/58320,kolonel,militair officier,(dutch: kolonel) military,
+43,commander colonel,commander colonel,MILITARY,military officers,58320,https://iisg.amsterdam/resource/hisco/code/hisco/58320,kolonel commandant,bevelvoerend militair officier,,
+44,commander of the soldiers,sergeant,MILITARY,non-commissioned military officers,58320,https://iisg.amsterdam/resource/hisco/code/hisco/58320,commandeur van de soldaten,"heeft het bevel over de militairen aan boord, meestal een sergeant","(dutch: commandeur der soldaten) military, commanding the soldiers on board",20.0
+45,compass maker,compass maker,OTHER,craftsmen,84230,https://iisg.amsterdam/resource/hisco/code/hisco/84230,kompasmaker,specialist die kompassen maakt,,15.0
+46,cook,cook,SHIP,food and service,53150,https://iisg.amsterdam/resource/hisco/code/hisco/53150,kok,verantwoordelijk voor het koken van de warme maaltijd,(dutch: kok) responsible for cooking the warm meal,20.0
+47,cook's mate,junior cook,SHIP,food and service,53150,https://iisg.amsterdam/resource/hisco/code/hisco/53150,koksmaat,helper van de kok,(dutch: koksmaat) helper of the cook,14.0
+48,cooper,cooper,SHIP,food and service,53190,https://iisg.amsterdam/resource/hisco/code/hisco/53190,kuiper,"toezicht op en openen van kuipen, vaten, emmers e.d.; helper van de bottelier",(dutch: kuiper),14.0
+49,cooper (craftsman),cooper (craftsman),OTHER,craftsmen,81930,https://iisg.amsterdam/resource/hisco/code/hisco/81930,leggermaker,"handwerksman, vermoedelijk maker van leggers d.w.z. houten vaten","(dutch: leggermaker) craftsman, presumably the maker of barrels",14.0
+50,cooper's mate,junior cooper,SHIP,food and service,53190,https://iisg.amsterdam/resource/hisco/code/hisco/53190,onderkuiper,helper van de opperkuiper,(dutch: onderkuiper) assists the senior cooper,14.0
+51,copper-smith,smith,OTHER,craftsmen,87330,https://iisg.amsterdam/resource/hisco/code/hisco/87330,koperslager,Handwerksman,(dutch: koperslager) craftsman,14.0
+52,corporal,corporal,MILITARY,non-commissioned military officers,58330,https://iisg.amsterdam/resource/hisco/code/hisco/58330,korporaal,laagste rang die mag bevelvoeren over een afdeling,"(dutch: korporaal) military, the lowest ranking nco permitted to command a section onboard",14.0
+53,council of justice,council of justice,OTHER,general (on shore),20210,https://iisg.amsterdam/resource/hisco/code/hisco/20210,raad van justitie,"hoge functionaris, lid van de Raad van Justitie",(dutch: raad van justitie) high functionary,192.5
+54,drill maker,drill maker,OTHER,craftsmen,72000,https://iisg.amsterdam/resource/hisco/code/hisco/72000,borenmaker,handwerksman,(dutch: borenmaker) artisan,12.0
+55,drummer,soldier,MILITARY,soldiers,58340,https://iisg.amsterdam/resource/hisco/code/hisco/58340,tamboer,signalen bij het wisselen van de wacht,(dutch: tamboer) signals the changing of the watch,9.0
+56,ensign,ensign,MILITARY,military officers,58330,https://iisg.amsterdam/resource/hisco/code/hisco/58330,vaandrig,militaire officier,(dutch: vaandrig) military,40.0
+57,file sharpener,weapon maker,MILITARY,military craftsmen,83915,https://iisg.amsterdam/resource/hisco/code/hisco/83915,vijlenkapper,handwerksman,(dutch: vijlenkapper) craftsman,14.0
+58,manual fire engine maker,manual fire engine maker,OTHER,craftsmen,,,brandspuitmaker,,,14.0
+59,fire hose maker,fire hose maker,OTHER,craftsmen,,,brandspuitslangenmaker,,,14.0
+60,first assistant surgeon,barber-surgeon,MEDICAL,medical,06212,https://iisg.amsterdam/resource/hisco/code/hisco/06212,eerste onderchirurgijn,medische zorg,(dutch: eerste onderchirurgijn) medical care,26.0
+61,first barber-surgeon,senior barber-surgeon,MEDICAL,medical,06215,https://iisg.amsterdam/resource/hisco/code/hisco/06215,opperbarbier,medische zorg,(dutch: opperbarbier) medical care,36.0
+62,first boatswain,boatswain,SEA,non-commissioned officers,98120,https://iisg.amsterdam/resource/hisco/code/hisco/98120,hoogbootsman,"toezicht op het lopende en staande want, speciaal van de grote mast; toezicht op de kwartiermeester","(dutch: hoogbootsman) supervision of the rigging, especially the main mast; supervision of the quartermaster",22.0
+63,first boatswain's mate,junior boatswain,SEA,non-commissioned officers,98120,https://iisg.amsterdam/resource/hisco/code/hisco/98120,hoogbootsmanmaat,"helper van de hoogbootsman, verantwoordelijk voor de bezaansmast","(dutch: hoogbootsmansmaat) assistant to the senior boatswain, responsible for the mizen-mast.",14.0
+64,first cooper,senior cooper,SHIP,food and service,53190,https://iisg.amsterdam/resource/hisco/code/hisco/53190,opperkuiper,"toezicht op en openen van kuipen, vaten, emmers e.d.; helper van de bottelier","(dutch: opperkuiper) supervision of the opening of tubs, barrels, buckets etc.; help's the steward",16.0
+65,first corporal,corporal,MILITARY,non-commissioned military officers,58330,https://iisg.amsterdam/resource/hisco/code/hisco/58330,eerste korporaal,zie korporaal,(dutch: eerste korporaal) military,14.0
+66,first lance corporal,lance-corporal,MILITARY,non-commissioned military officers,58330,https://iisg.amsterdam/resource/hisco/code/hisco/58330,eerste lanspassaat,zie lanspassaat,"(dutch: eerste lanspassaat) military, see lance corporal (dutch: lanspassaat)",12.0
+67,first mate,first mate,SEA,officers,04200,https://iisg.amsterdam/resource/hisco/code/hisco/04200,opperstuurman,leiding van en toezicht op de navigatie,(dutch: opperstuurman) control and supervision of navigation,48.0
+68,first supervisor of Asian crew members,supervisor of Asian crew members,SEA,Asian sailors,21220,https://iisg.amsterdam/resource/hisco/code/hisco/21220,oppermandoer,geeft leiding aan Aziatische zeelieden,,
+69,forest worker,forest worker,OTHER,craftsmen (on shore),81000,https://iisg.amsterdam/resource/hisco/code/hisco/81000,"houtwerker, houtkapper",,,
+70,fusilier,soldier,MILITARY,soldiers,58340,https://iisg.amsterdam/resource/hisco/code/hisco/58340,fuselier,militair bewapend met een geweer,(dutch: fuselier),9.0
+71,glass maker,glass maker,OTHER,craftsmen,89100,https://iisg.amsterdam/resource/hisco/code/hisco/89100,glazenmaker,,,14.0
+72,grenadier,soldier,MILITARY,soldiers,58340,https://iisg.amsterdam/resource/hisco/code/hisco/58340,grenadier,"oorspronkelijk soldaat voor het werpen van granaten, later keursoldaat",,9.0
+73,gun maker (orig.: bossemaker),weapon maker,MILITARY,military craftsmen,83920,https://iisg.amsterdam/resource/hisco/code/hisco/83920,bossemaker,,,14.0
+74,gun maker (orig.: roermaker),weapon maker,MILITARY,military craftsmen,95455,https://iisg.amsterdam/resource/hisco/code/hisco/95455,roermaker,geweermaker,,14.0
+75,gun-chassis builder,junior weapon maker,MILITARY,military craftsmen,83920,https://iisg.amsterdam/resource/hisco/code/hisco/83920,affuitmaker,"affuit: onderstel van een kanon, handwerksman",(dutch: affuitmaker) tradesman who makes gun or canon mountings.,9.0
+76,gunner,senior soldier,MILITARY,soldiers,58340,https://iisg.amsterdam/resource/hisco/code/hisco/58340,kanonnier,bedient het kanon,(dutch: kanonnier),20.0
+77,gunsmith (orig.: eggewerker),weapon maker,MILITARY,military craftsmen,62210,https://iisg.amsterdam/resource/hisco/code/hisco/62210,eggewerker,ambachtsman die snijwerktuigen maakt ondermeer in de mijnbouw,,14.0
+78,gunsmith (orig.: roerslotenmaker),weapon maker,MILITARY,military craftsmen,83930,https://iisg.amsterdam/resource/hisco/code/hisco/83930,roerslotenmaker,"mogelijk een slotenmaker, een fijnsmid die het slot d.w.z. afvuurinrichting van een handvuurwapen (roer, musket) maakt","(dutch: roerslotenmaker) craftsman, probably a locksmith who specialises in lock mechanisms of pistols and muskets.",14.0
+79,officer cadet (orig.: cadet de marine),officer cadet,MILITARY,non-commissioned military officers,58330,https://iisg.amsterdam/resource/hisco/code/hisco/58330,cadet (de marine),functie voor opleiding tot officier (stuurmansleerling),(dutch: cadet (de marine)) trainee function,12.0
+80,house carpenter,house carpenter,OTHER,craftsmen (on shore),95410,https://iisg.amsterdam/resource/hisco/code/hisco/95410,huistimmerman,"in tegenstelling tot de scheepstimmerman niet werkzaam aan boord, maar na aankomst in Azië","(dutch: huistimmerman) artisan, in contrast to a ship carpenter",14.0
+81,house locksmith,house locksmith,OTHER,craftsmen (on shore),83930,https://iisg.amsterdam/resource/hisco/code/hisco/83930,huisslotenmaker,zie ook roerslotenmaker,"(dutch: huisslotenmaker) craftsman, in contrast to a locksmith (dutch: slotenmaker)",14.0
+82,hunter,hunter,OTHER,craftsmen (on shore),64960,https://iisg.amsterdam/resource/hisco/code/hisco/64960,jager,,,
+83,infirmary visitor,infirmary visitor,OTHER,medical,14140,https://iisg.amsterdam/resource/hisco/code/hisco/14140,krankbezoeker,geestelijke zorg; vergelijkbaar met ziekentrooster,"(dutch: krankbezoeker) spiritual care, comforter for the sick",24.0
+84,instrument maker,instrument maker,MEDICAL,craftsmen,84230,https://iisg.amsterdam/resource/hisco/code/hisco/84230,instrumentenmaker,,,14.0
+85,journeyman,journeyman,OTHER,craftsmen,,,ambachtsgezel,handwerksman,"artisan, tradesman or trained worker.",14.0
+86,junior assistant to the (chief) merchant,merchant's assistant,TRADE,trade,30000,https://iisg.amsterdam/resource/hisco/code/hisco/30000,jong assistent,,,24.0
+87,junior merchant,merchant,TRADE,trade,41020,https://iisg.amsterdam/resource/hisco/code/hisco/41020,onderkoopman,zie koopman,(dutch: onderkoopman),40.0
+88,junior ordinary seaman,junior sailor,SEA,sailors,98140,https://iisg.amsterdam/resource/hisco/code/hisco/98140,jongmatroos,Lichtmatroos,(dutch: jongmatroos),7.0
+89,junior seaman,junior sailor,SEA,sailors,98140,https://iisg.amsterdam/resource/hisco/code/hisco/98140,jongbootsgezel,helpers van de matrozen,(dutch: jongbootsgezel) assists the seamen,7.0
+90,junior soldier,junior soldier,MILITARY,soldiers,58340,https://iisg.amsterdam/resource/hisco/code/hisco/58340,jongsoldaat,,(dutch: jongsoldaat),7.0
+91,knife maker,knife maker,OTHER,craftsmen,83220,https://iisg.amsterdam/resource/hisco/code/hisco/83220,messenmaker,handwerksman,(dutch: messenmaker) craftsman,19.0
+92,lance corporal,lance-corporal,MILITARY,non-commissioned military officers,58330,https://iisg.amsterdam/resource/hisco/code/hisco/58330,lanspassaat,"onderofficier, rang onder korporaal",(dutch: lanspassaat) rank inbetween corporal and private (ordinary soldier),12.0
+93,lawyer,lawyer,OTHER,general (on shore),12110,https://iisg.amsterdam/resource/hisco/code/hisco/12110,advocaat,,,
+94,lieutenant captain (military),lieutenant captain,MILITARY,military officers,58320,https://iisg.amsterdam/resource/hisco/code/hisco/58320,kapitein luitenant (militair),militair officier,,
+95,lock maker,lock maker,OTHER,craftsmen,83930,https://iisg.amsterdam/resource/hisco/code/hisco/83930,slotenmaker,zie ook Roerslotenmaker,(dutch: slotenmaker) craftsman,14.0
+96,major,major,MILITARY,military officers,58320,https://iisg.amsterdam/resource/hisco/code/hisco/58320,majoor,militaire officier,,
+97,map maker,map maker,OTHER,craftsmen,16290,https://iisg.amsterdam/resource/hisco/code/hisco/16290,kaartmaker,specialist die kaarten maakt,,16.0
+98,mast builder,mast builder,OTHER,craftsmen,95455,https://iisg.amsterdam/resource/hisco/code/hisco/95455,mastenmaker,handwerksman,(dutch: mastenmaker) craftsman,9.0
+99,master,captain,SEA,officers,04215,https://iisg.amsterdam/resource/hisco/code/hisco/04215,gezagvoerder,schipper,(dutch: gezagvoerder),72.0
+100,master-at-arms,master-at-arms,SHIP,order,98120,https://iisg.amsterdam/resource/hisco/code/hisco/98120,provoost,zorg voor orde en tucht aan boord,(dutch: provoost) in charge of order and disapline onboard,13.0
+101,merchant (orig.: carga),senior merchant,TRADE,trade,41020,https://iisg.amsterdam/resource/hisco/code/hisco/41020,carga,zie Supercarga,,135.0
+102,merchant,merchant,TRADE,trade,41020,https://iisg.amsterdam/resource/hisco/code/hisco/41020,koopman,"hoge functionaris, ook verantwoordelijk voor de administratie van goederen, lonen en voedsel",(dutch: koopman),40.0
+103,midshipman,soldier,MILITARY,soldiers,58330,https://iisg.amsterdam/resource/hisco/code/hisco/58330,adelborst,rangbenaming van militairen die tot zeeofficier worden opgeleid,"(dutch: adelborst) military, rank of a naval officer under training",9.0
+104,midwife,midwife,OTHER,craftsmen (on shore),07310,https://iisg.amsterdam/resource/hisco/code/hisco/07310,vroedvrouw,verloskundige,(dutch: vroedvrouw),
+105,miller,miller,OTHER,craftsmen (on shore),77120,https://iisg.amsterdam/resource/hisco/code/hisco/77120,molenaar,,,20.0
+106,miner,miner,OTHER,craftsmen (on shore),71105,https://iisg.amsterdam/resource/hisco/code/hisco/71105,bergwerker,,,50.0
+107,musician,musician,OTHER,musicians,17140,https://iisg.amsterdam/resource/hisco/code/hisco/17140,muzikant,,,
+108,lieutenant (military),lieutenant,MILITARY,military officers,58320,https://iisg.amsterdam/resource/hisco/code/hisco/58320,luitenant (militair),militair officier,(dutch: luitenant) military,50.0
+109,officer,officer,MILITARY,military officers,58320,https://iisg.amsterdam/resource/hisco/code/hisco/58320,officier met gevolg (militair),militaire officier,,
+110,lieutenant (military) (orig.: premier luitenant),lieutenant,MILITARY,military officers,58320,https://iisg.amsterdam/resource/hisco/code/hisco/58320,premier luitenant (militair),militaire officier,,50.0
+111,navigator,second mate,SEA,officers,04200,https://iisg.amsterdam/resource/hisco/code/hisco/04200,stuurman,verantwoordelijk voor de navigatie,(dutch: stuurman),32.0
+112,officer cadet (orig.: cadet gentilhomme),officer cadet,MILITARY,non-commissioned military officers,58330,https://iisg.amsterdam/resource/hisco/code/hisco/58330,cadet gentilhomme (militair),,(original: cadet gentilhomme (militair)) military,12.0
+113,officer responsible for provisioning of soldiers,officer responsible for provisioning of soldiers,MILITARY,non-commissioned military officers,58330,https://iisg.amsterdam/resource/hisco/code/hisco/58330,foerier,,,
+114,pilot,pilot,SEA,non-commissioned officers,04240,https://iisg.amsterdam/resource/hisco/code/hisco/04240,loods,specialist wekzaam bij het in- of uitvaren van haven of rede,(dutch: loods),22.0
+115,piper,piper,OTHER,musicians,17140,https://iisg.amsterdam/resource/hisco/code/hisco/17140,fluiter / pijper,,,
+116,plumber,plumber,OTHER,craftsmen,87105,https://iisg.amsterdam/resource/hisco/code/hisco/87105,loodgieter,handwerksman,(dutch: loodgieter) craftsman,14.0
+117,prosecutor,prosecutor,OTHER,general (on shore),33110,https://iisg.amsterdam/resource/hisco/code/hisco/33110,fiscaal,,,
+118,quartermaster,quartermaster,SEA,non-commissioned officers,98130,https://iisg.amsterdam/resource/hisco/code/hisco/98130,kwartiermeester,"directe contole op groepen manschappen, ronddeling warm eten en ordehandhaving tijdens het schaften",(dutch: kwartiermeester) has direct control over the crew and the distribution of warm meals and maintaining order during meal time.,14.0
+119,recruit,junior soldier,MILITARY,soldiers,58340,https://iisg.amsterdam/resource/hisco/code/hisco/58340,rekruut,pas geworven militair,(dutch: rekruut) military,7.0
+120,rye miller,rye miller,OTHER,craftsmen (on shore),77120,https://iisg.amsterdam/resource/hisco/code/hisco/77120,korenmolenaar,molenaar die graan maalt,,
+121,sail maker,sail maker,SHIP,craftsmen,81930,https://iisg.amsterdam/resource/hisco/code/hisco/81930,zeilmaker,zorg voor het onderhoud en herstel van de zeilen,(dutch: zeilmaker),16.0
+122,sail-maker's mate,junior sail maker,SHIP,craftsmen,81930,https://iisg.amsterdam/resource/hisco/code/hisco/81930,zeilmakersmaat,helper van de zeilmaker,(dutch: zeilmakersmaat),14.0
+123,sailor,sailor,SEA,sailors,98140,https://iisg.amsterdam/resource/hisco/code/hisco/98140,matroos,"waak- en roergang; laden en lossen; reinigen, teren en kalfaten van het schip; af- en aanslaan van de zeilen; helpers van de onderofficieren. Ook wel bootsgezel.","(dutch: matroos) watch and helmansman duties; loading and unloading; cleaning, taring and caulking the ship; hoisting and pulling in the sails; assisting the ncos.",11.0
+124,sapper,sculptor,MILITARY,soldiers,58340,https://iisg.amsterdam/resource/hisco/code/hisco/58340,sappeur,soldaat die loopgraven maakt,,15.5
+125,sculptor,sculptor,OTHER,craftsmen,71220,https://iisg.amsterdam/resource/hisco/code/hisco/71220,beeldhouwer,waarschijnlijk boegbeelden en dergelijke,"(dutch: beeldhouwer) craftsman, probably for shaping ornamental figureheads and the like",15.5
+126,captain (sea),captain,SEA,officers,04215,https://iisg.amsterdam/resource/hisco/code/hisco/04215,kapitein (zeeman),"schipper, eerste officier",(dutch: kapitein (zeeman)) first officer,72.0
+127,lieutenant (sea),first mate,SEA,officers,04217,https://iisg.amsterdam/resource/hisco/code/hisco/04217,luitenant (zeeman),rond 1750 opperstuurman; vanaf 1783 onderstuurman,,48.0
+128,lieutenant-captain (sea),captain,SEA,officers,04215,https://iisg.amsterdam/resource/hisco/code/hisco/04215,kapitein luitenant (zeeman),rond 1750 wordt hiermee de schipper bedoeld; na 1783 de opperstuurman,(dutch: kapitein luitenant (zeeman)) around 1750 this meant skipper; after 1783 this meant first mate,72.0
+129,seaman,sailor,SEA,sailors,98140,https://iisg.amsterdam/resource/hisco/code/hisco/98140,bootsgezel,"waak- en roergang; laden en lossen; reinigen, teren en kalfaten van het schip; af- en aanslaan van de zeilen; helpers van de onderofficieren.","(dutch: bootsgezel) crewman doing watch en helmsman duties, loading and unloading, tarring and caulking of the ship; hoisting and pulling down sails; assisting the non-commissioned officers (nco's).",11.0
+130,seamen's mate,junior sailor,SEA,sailors,98140,https://iisg.amsterdam/resource/hisco/code/hisco/98140,oploper,"helpers van de matrozen, Zeeuws voor hooploper",(dutch: oploper) assist the seaman (dutch: bootsgezel),7.0
+131,second barber-surgeon,barber-surgeon,MEDICAL,medical,06217,https://iisg.amsterdam/resource/hisco/code/hisco/06217,tweede barbier,medische zorg,(dutch: tweede barbier),26.0
+132,second colonel,colonel,MILITARY,military officers,58320,https://iisg.amsterdam/resource/hisco/code/hisco/58320,tweede kolonel,militaire officier,,
+133,second cooper,junior cooper,SHIP,food and service,53190,https://iisg.amsterdam/resource/hisco/code/hisco/53190,tweede kuiper,helper van de kuiper,,14.0
+134,second corporal,corporal,MILITARY,non-commissioned military officers,58330,https://iisg.amsterdam/resource/hisco/code/hisco/58330,tweede korporaal,zie korporaal,(dutch: tweede korporaal) military,14.0
+135,second gunner,soldier,MILITARY,soldiers,58340,https://iisg.amsterdam/resource/hisco/code/hisco/58340,onderkanonnier,,,9.0
+136,second lance-corporal,lance-corporal,MILITARY,non-commissioned military officers,58330,https://iisg.amsterdam/resource/hisco/code/hisco/58330,tweede lanspassaat,"Militair, zie lanspassaat","(dutch: tweede lanspassaat) military, see lance-corporal (dutch: lanspassaat)",12.0
+137,second lieutenant (sea),first mate,SEA,officers,04200,https://iisg.amsterdam/resource/hisco/code/hisco/04200,tweede luitenant,in rang na de luitenant (zeeman),"(dutch: tweede luitenant) second in rank, after sea lieutenant (dutch: luitenant (zeeman))",48.0
+138,second mate,second mate,SEA,officers,04200,https://iisg.amsterdam/resource/hisco/code/hisco/04200,tweede stuurman,zie stuurman,(dutch: tweede stuurman),32.0
+139,second mate (orig.: onderstuurman),second mate,SEA,officers,04200,https://iisg.amsterdam/resource/hisco/code/hisco/04200,onderstuurman,helper van de stuurman,(dutch: onderstuurman),32.0
+140,second medical master (orig.: ondermeester),barber-surgeon,MEDICAL,medical,06213,https://iisg.amsterdam/resource/hisco/code/hisco/06213,ondermeester,medische zorg,(dutch: ondermeester) medical care,26.0
+141,second medical master,barber-surgeon,MEDICAL,medical,06213,https://iisg.amsterdam/resource/hisco/code/hisco/06213,tweede meester,medische zorg,(dutch: seconde meester) medical care,26.0
+142,second lieutenant (military) (orig.: sousluitenant),lieutenant,MILITARY,non-commissioned military officers,58330,https://iisg.amsterdam/resource/hisco/code/hisco/58330,sousluitenant (militair),militaire officier,,50.0
+143,second lieutenant (military),lieutenant,MILITARY,non-commissioned military officers,58330,https://iisg.amsterdam/resource/hisco/code/hisco/58330,tweede luitenant (militair),militaire officier,,50.0
+144,second sail maker,sail maker,SHIP,craftsmen,81930,https://iisg.amsterdam/resource/hisco/code/hisco/81930,tweede zeilmaker,,,16.0
+145,second sail-maker's mate,junior sail maker,SHIP,craftsmen,81930,https://iisg.amsterdam/resource/hisco/code/hisco/81930,onderzeilmaker,helper van de opperzeilmaker,(dutch: onderzeilmaker) assists the senior sail maker (dutch: opperzeilmaker),14.0
+146,second sergeant,sergeant,MILITARY,non-commissioned military officers,58330,https://iisg.amsterdam/resource/hisco/code/hisco/58330,tweede sergeant,,,20.0
+147,second supervisor of Asian crew members,supervisor of Asian crew members,SEA,Asian sailors,21220,https://iisg.amsterdam/resource/hisco/code/hisco/21220,ondermandoer,geeft leiding aan Aziatische zeelieden,,
+148,second surgeon,barber-surgeon,MEDICAL,medical,06218,https://iisg.amsterdam/resource/hisco/code/hisco/06218,tweede chirurgijn,medische zorg,(dutch: tweede chirurgijn),26.0
+149,second surgeon (orig.: onderchirurgijn),barber-surgeon,MEDICAL,medical,06214,https://iisg.amsterdam/resource/hisco/code/hisco/06214,onderchirurgijn,"medische zorg, helper van de chirurgijn","(dutch: onderchirurgijn) medical care, assists the surgeon",26.0
+150,second-surgeon's mate,barber-surgeon,MEDICAL,medical,06219,https://iisg.amsterdam/resource/hisco/code/hisco/06219,tweede onderchirurgijn,medische zorg,(dutch: tweede onderchirurgijn) medical care,26.0
+151,senior ship carpenter,ship carpenter,SHIP,craftsmen,95455,https://iisg.amsterdam/resource/hisco/code/hisco/95455,opper(scheeps)timmerman,"verantwoordelijk voor de romp, pompen en ander houtwerk","(dutch: opper(scheeps)timmerman) responsible for the hull, pumps and other woodwork",48.0
+152,senior boatswain,senior boatswain,SEA,non-commissioned officers,98120,https://iisg.amsterdam/resource/hisco/code/hisco/98120,opperschieman,zie schieman,(dutch: opperschieman),48.0
+153,senior medical master,senior barber-surgeon,MEDICAL,medical,06213,https://iisg.amsterdam/resource/hisco/code/hisco/06213,oppermeester,medische zorg,(dutch: oppermeester) medical care,36.0
+154,senior merchant,senior merchant,TRADE,trade,41020,https://iisg.amsterdam/resource/hisco/code/hisco/41020,opperkoopman,zie koopman,(dutch: opperkoopman),135.0
+155,senior sail maker,senior sail maker,SHIP,craftsmen,81930,https://iisg.amsterdam/resource/hisco/code/hisco/81930,opperzeilmaker,zorg voor het onderhoud en herstel van de zeilen,(dutch: opperzeilmaker) reponsibilty for the maintenance and repair of the sails,20.0
+156,senior surgeon,senior barber-surgeon,MEDICAL,medical,06216,https://iisg.amsterdam/resource/hisco/code/hisco/06216,opperchirurgijn,medische zorg,(dutch: opperchirurgijn) medical care,36.0
+157,senior water maker,water maker,SHIP,food and service,53190,https://iisg.amsterdam/resource/hisco/code/hisco/53190,opperwatermaker,toezicht op de distilleerketel voor zoetwater te maken,(dutch: opperwatermaker),18.0
+158,senior weapons master,weapons master,SHIP,order,58340,https://iisg.amsterdam/resource/hisco/code/hisco/58340,opperkonstabel,zie konstabel,(dutch: opperkonstabel) see weapons master (niederländisch: konstabel),22.0
+159,sergeant,sergeant,MILITARY,non-commissioned military officers,58330,https://iisg.amsterdam/resource/hisco/code/hisco/58330,sergeant,"onderofficier, heeft meestal het bevel over de militairen aan boord.",(dutch: sergeant) military,20.0
+160,sergeant cadet,sergeant,MILITARY,non-commissioned military officers,58330,https://iisg.amsterdam/resource/hisco/code/hisco/58330,cadet sergeant (militair),,(original: cadet sergeant) military,20.0
+161,ship carpenter,junior ship carpenter,SHIP,craftsmen,95455,https://iisg.amsterdam/resource/hisco/code/hisco/95455,scheepstimmerman,"verantwoordelijk voor de romp, pompen en ander houtwerk","(dutch: scheepstimmerman) responsable for hull, pump and woodwork",28.0
+162,ship corporal,lance-corporal,MILITARY,non-commissioned military officers,58330,https://iisg.amsterdam/resource/hisco/code/hisco/58330,scheepskorporaal,"belast met het toezicht en onderhoud van de wapens, wapensmid","(dutch: scheepskorporaal) responsible for maintenance of weapons, weaponsmith",12.0
+163,ship gunner,sailor,SEA,sailors,98135,https://iisg.amsterdam/resource/hisco/code/hisco/98135,bosschieter,"ervaren matroos, ook belast met het afvuren van een kanon",(dutch: busschieter) experienced seaman also responsible for firing a cannon,11.0
+164,ship's boy (orig.: hoogloper),junior sailor,SEA,sailors,98140,https://iisg.amsterdam/resource/hisco/code/hisco/98140,hoogloper,"helper van de matrozen, vermoedelijk hooploper",(dutch: hoogloper) assists the seaman (niederländisch: bootsgezel),7.0
+165,ship's boy (orig.: hooploper),junior sailor,SEA,sailors,98140,https://iisg.amsterdam/resource/hisco/code/hisco/98140,hooploper,helper van de matrozen,(dutch: hooploper) assists the seaman (niederländisch: bootsgezel),7.0
+166,ship's boy,junior sailor,SEA,sailors,98140,https://iisg.amsterdam/resource/hisco/code/hisco/98140,jongen,"jonger dan 17 jaar, allerlei karweitjes aan boord","(dutch: jongen) younger than 17 years, various odd jobs onboard",7.0
+167,skipper or master,captain,SEA,officers,04217,https://iisg.amsterdam/resource/hisco/code/hisco/04217,schipper,"belangrijkste man aan boord, algehele leiding","most important man onboard, has entire command",72.0
+168,smith,smith,OTHER,craftsmen,83110,https://iisg.amsterdam/resource/hisco/code/hisco/83110,smid,handwerksman,(dutch: smit) craftsman,14.0
+169,soldier (orig.: Gefreiter),soldier,MILITARY,soldiers,58340,https://iisg.amsterdam/resource/hisco/code/hisco/58340,gefreiter,soldaat 1e klasse,(original: gefreiter) soldier first class,9.0
+170,soldier (orig.: gemene),soldier,MILITARY,soldiers,58340,https://iisg.amsterdam/resource/hisco/code/hisco/58340,gemene,,,9.0
+171,soldier,soldier,MILITARY,soldiers,58340,https://iisg.amsterdam/resource/hisco/code/hisco/58340,soldaat,Militair,(dutch: soldaat) military,9.0
+172,spiritual comforter,spiritual comforter,OTHER,medical,14140,https://iisg.amsterdam/resource/hisco/code/hisco/14140,ziekentrooster,geestelijke zorg aan boord,(dutch: ziekentrooster) spirtual care onboard,24.0
+173,steward,steward,SHIP,food and service,54060,https://iisg.amsterdam/resource/hisco/code/hisco/54060,bottelier,verantwoordelijk voor voeding en drinkwaren,(dutch: bottelier) reponsable for food and drink,20.0
+174,steward's helper,junior steward,SHIP,food and service,54060,https://iisg.amsterdam/resource/hisco/code/hisco/54060,versebalie,zorg voor verversen van groenten en vlees,(dutch: versebalie) reponsibility for the fresh provision of vegitables and meat,14.0
+175,stone mason,stone mason,OTHER,craftsmen (on shore),71220,https://iisg.amsterdam/resource/hisco/code/hisco/71220,steenhouwer,handwerksman,(dutch: steenhouwer) craftsman,14.0
+176,stowaway,stowaway,OTHER,stowaway,,,verstekeling,zonder arbeidscontract stiekem meegevaren en ontdekt,(dutch: verstekeling),
+177,supervisor of Asian crew members,supervisor of Asian crew members,SEA,Asian sailors,21220,https://iisg.amsterdam/resource/hisco/code/hisco/21220,mandoer,geeft leiding aan Aziatische zeelieden,,
+178,surgeon,barber-surgeon,MEDICAL,medical,06210,https://iisg.amsterdam/resource/hisco/code/hisco/06210,chirurgijn,medische zorg,(dutch: chirurgijn) medical care,26.0
+179,surveyor,surveyor,OTHER,craftsmen (on shore),03020,https://iisg.amsterdam/resource/hisco/code/hisco/03020,landmeter,specialist die oppervlakten of afstanden meet,,
+180,third barber-surgeon,junior barber-surgeon,MEDICAL,medical,06211,https://iisg.amsterdam/resource/hisco/code/hisco/06211,derde barbier,medische zorg,(dutch: derde barbier) medical care,14.0
+181,third mate (orig.: sousluitenant (derdewaak)),third mate,SEA,officers,04200,https://iisg.amsterdam/resource/hisco/code/hisco/04200,sousluitenant (derdewaak),latere benaming voor derdewaak.,(dutch: sousluitenant (derdewaak)),26.0
+182,third mate,third mate,SEA,officers,04200,https://iisg.amsterdam/resource/hisco/code/hisco/04200,derde stuurman,verantwoordelijk voor de navigatie,(dutch: derde stuurman),26.0
+183,third mate (orig.: derdewaak),third mate,SEA,officers,04200,https://iisg.amsterdam/resource/hisco/code/hisco/04200,derdewaak,derde stuurman,(dutch: derdewaak),26.0
+184,third medical master,junior barber-surgeon,MEDICAL,medical,06213,https://iisg.amsterdam/resource/hisco/code/hisco/06213,derde meester,medische zorg,(dutch: derde meester) medical care,14.0
+185,third surgeon,junior barber-surgeon,MEDICAL,medical,06105,https://iisg.amsterdam/resource/hisco/code/hisco/06105,derde chirurgijn,medische zorg,(dutch: derde chirurgijn) medical care,14.0
+186,tin founder,smith,OTHER,craftsmen,87340,https://iisg.amsterdam/resource/hisco/code/hisco/87340,tinnegieter,handwerksman,(dutch: tinnegieter) craftsman,14.0
+187,tinsmith,smith,OTHER,craftsmen,87340,https://iisg.amsterdam/resource/hisco/code/hisco/87340,blikslager,handwerksman,"(dutch: blikslager) craftsman, metalworker or tinker",14.0
+188,trumpeter,trumpeter,OTHER,musicians,17140,https://iisg.amsterdam/resource/hisco/code/hisco/17140,trompetter,signalen bij het wisselen van de wacht,(dutch: trompetter) signals the changing of the watch,16.0
+189,turner (orig.: holdraaier),turner,OTHER,craftsmen,81230,https://iisg.amsterdam/resource/hisco/code/hisco/81230,holdraaier,Handwerksman,(dutch: holdraaier) craftsman,14.0
+190,turner (orig.: draaier),turner,OTHER,craftsmen,81230,https://iisg.amsterdam/resource/hisco/code/hisco/81230,draaier,"verwerkt hout, metaal of been op een draaibank","(dutch: draaier) artisan, processes wood, metal or bone on a lathe",14.0
+191,water maker,water maker,SHIP,food and service,53190,https://iisg.amsterdam/resource/hisco/code/hisco/53190,watermaker,toezicht op de distilleerketel voor het maken van zoet water,(dutch: watermaker),18.0
+192,water-maker's mate,junior water maker,SHIP,food and service,53190,https://iisg.amsterdam/resource/hisco/code/hisco/53190,onder-watermaker,helper van de (zoet) watermaker,(dutch: onder-watermaker),12.0
+193,weapons master,weapons master,SHIP,order,58340,https://iisg.amsterdam/resource/hisco/code/hisco/58340,konstabel,verantwoordelijk voor wapens,(dutch: konstabel) responsable for weapons on board,22.0
+194,weapons-master's mate,junior weapons master,SHIP,order,58340,https://iisg.amsterdam/resource/hisco/code/hisco/58340,konstabelsmaat,helper van de konstabel,(dutch: konstabelsmaat) sea weapons master,14.0
+195,weapons-woodworker,weapon maker,MILITARY,military craftsmen,81120,https://iisg.amsterdam/resource/hisco/code/hisco/81120,lademaker,maker van een geweer- of pistoollade d.w.z. de houten delen van een handvuurwapen,"(dutch: lademaker) craftsman, builds the wooden parts of pistols and weapons",14.0
+196,wheel maker,wheel maker,OTHER,craftsmen,81925,https://iisg.amsterdam/resource/hisco/code/hisco/81925,rademaker,"ambachtsman die wagenwielen maakt, ook wel wagenmaker",,14.0
+197,windmill maker,windmill maker,OTHER,craftsmen (on shore),84970,https://iisg.amsterdam/resource/hisco/code/hisco/84970,molenmaker,handwerksman,(dutch: molenmaker) craftsman,14.0
+198,"lieutenant (sea, after 1783)",second mate,SEA,officers,04200,https://iisg.amsterdam/resource/hisco/code/hisco/04200,,,,32.0
+199,"lieutenant-captain (sea, after 1783)",first mate,SEA,officers,04200,https://iisg.amsterdam/resource/hisco/code/hisco/04200,,,,48.0
+200,"second lieutenant (sea, after 1783)",second mate,SEA,officers,04200,https://iisg.amsterdam/resource/hisco/code/hisco/04200,,,,32.0
