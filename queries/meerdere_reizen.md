@@ -1,4 +1,4 @@
-# Wie reisde er meer dan 1 keer?
+# Wat was dit voor een persoon?
 
 ## Relatie tussen vocop_id en person_cluster_id
 
@@ -49,9 +49,9 @@ ORDER BY
 ```
 
 
-## Personen die meerdere keren voeren
+## Personen die meerdere keren reisden
 
-lijst van alle geïdentificeerde personen die meerdere keren voeren, inclusief hun naam, afkomst en hun eerste/laatste contractdata.
+lijst van alle geïdentificeerde personen die meerdere keren reisden, inclusief hun naam, afkomst en hun eerste en laatste contractdatum.
 
 ```sql
 SELECT 
@@ -68,7 +68,7 @@ WHERE
 GROUP BY
     vpc.person_cluster_id
 HAVING
-    COUNT(vpc.vocop_id) > 1
+    COUNT(vpc.vocop_id) > 9
 ORDER BY
     num_contracts DESC;
 ```

@@ -1,19 +1,19 @@
-CREATE TABLE voc.voc_ranks (
-    rank_id INTEGER PRIMARY KEY,
+-- RAW
+CREATE TABLE voc_raw.voc_ranks (
+    rank_id TEXT,
     rank TEXT,
     parent_rank TEXT,
     category TEXT,
     subcategory TEXT,
-    hisco INTEGER,
+    hisco TEXT,
     hisco_uri TEXT,
     rank_nl TEXT,
     rank_description_nl TEXT,
     rank_description_eng TEXT,
-    median_wage NUMERIC
+    median_wage TEXT
 );
 
-
-COPY voc.voc_ranks (
+COPY voc_raw.voc_ranks (
     rank_id,
     rank,
     parent_rank,
@@ -36,6 +36,51 @@ WITH (
     NULL '',
     ENCODING 'UTF8'
 );
+
+-- FINAL
+CREATE TABLE voc.voc_ranks (
+    rank_id INTEGER PRIMARY KEY,
+    rank TEXT,
+    parent_rank TEXT,
+    category TEXT,
+    subcategory TEXT,
+    hisco INTEGER,
+    hisco_uri TEXT,
+    rank_nl TEXT,
+    rank_description_nl TEXT,
+    rank_description_eng TEXT,
+    median_wage INTEGER
+);
+
+INSERT INTO voc.voc_ranks (
+    rank_id,
+    rank,
+    parent_rank,
+    category,
+    subcategory,
+    hisco,
+    hisco_uri,
+    rank_nl,
+    rank_description_nl,
+    rank_description_eng,
+    median_wage
+)
+SELECT
+    NULLIF(rank_id, '')::NUMERIC::INTEGER AS rank_id,
+    NULLIF(rank, '') AS rank,
+    NULLIF(parent_rank, '') AS parent_rank,
+    NULLIF(category, '') AS category,
+    NULLIF(subcategory, '') AS subcategory,
+    NULLIF(hisco, '')::NUMERIC::INTEGER AS hisco,
+    NULLIF(hisco_uri, '') AS hisco_uri,
+    NULLIF(rank_nl, '') AS rank_nl,
+    NULLIF(rank_description_nl, '') AS rank_description_nl,
+    NULLIF(rank_description_eng, '') AS rank_description_eng,
+    CASE 
+        WHEN TRIM(median_wage) ~ '^[0-9]+(\.[0-9]+)?$' THEN ROUND(median_wage::NUMERIC)::INTEGER 
+        ELSE NULL 
+    END AS median_wage
+FROM voc_raw.voc_ranks;
 
 
 COMMENT ON COLUMN voc.voc_ranks.rank_id IS 'Record ID; each record describes a rank on board a VOC ship.';
