@@ -14,13 +14,9 @@ Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 ## The data
 
-I copied the enriched csv files from https://doi.org/10.5281/zenodo.10599528. 
-
-Data from [dataset/csv/enriched](dataset/csv/enriched) is imported automatically via SQL scripts in the [sql-initdb](sql-initdb) directory.
+I use the enriched csv files from https://doi.org/10.5281/zenodo.10599528. 
 
 Some adjustememts have been made to the data: [script in sql-initdb](./sql-initdb/)
-
-Example queries can be found here: [queries](./queries/)
 
 ## Download data from Zenodo and feed csv's to the database
 
