@@ -27,7 +27,7 @@ COPY voc_raw.voc_voyages (
     arrival_date,
     arrival_place
 )
-FROM '/csv/voc_voyages.csv'
+FROM '/unzipped/enriched/voc_voyages.csv'
 WITH (
     FORMAT csv,
     HEADER true,

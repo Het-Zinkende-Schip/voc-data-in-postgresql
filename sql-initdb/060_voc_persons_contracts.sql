@@ -61,7 +61,7 @@ COPY voc_raw.voc_persons_contracts (
     uid,
     scan_permalink
 )
-FROM '/csv/voc_persons_contracts.csv'
+FROM '/unzipped/enriched/voc_persons_contracts.csv'
 WITH (
     FORMAT csv,
     HEADER true,

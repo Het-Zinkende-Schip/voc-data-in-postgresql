@@ -6,8 +6,8 @@ services:
       - "6543:5432"
     volumes:
       - ./sql-initdb:/docker-entrypoint-initdb.d
-      - ./dataset/csv/enriched:/csv_zip
-      - ./dataset/csv/unzipped:/csv
+      - ./dataset_download:/download
+      - ./dataset_unzipped:/unzipped
       - pgdata:/var/lib/postgresql/data
     environment:
       POSTGRES_PASSWORD: postgres
@@ -17,12 +17,12 @@ services:
     entrypoint: ["/bin/sh", "-c"]
     command: >
       "
-        echo 'Unzipping CSV files...' &&
+        echo 'unzipping csv files...' &&
         mkdir -p /csv &&
-        if [ -f /csv_zip/enriched.zip ]; then
-          unzip -o /csv_zip/enriched.zip -d /csv;
+        if [ -f /download/VOC_Dataset.zip ]; then
+          unzip -o /download/VOC_Dataset.zip -d /unzipped;
         else
-          echo 'No zip file found in /csv_zip';
+          echo 'no zip file found in /download';
         fi &&
         echo 'Starting official PostgreSQL entrypoint...' &&
         exec docker-entrypoint.sh postgres -c log_statement=all -c log_destination=stderr

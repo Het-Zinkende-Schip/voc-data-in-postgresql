@@ -22,9 +22,15 @@ Some adjustememts have been made to the data: [script in sql-initdb](./sql-initd
 
 Example queries can be found here: [queries](./queries/)
 
-## Starting the container
+## Download data from Zenodo and feed csv's to the database
 
-From the project root directory, you can build and start the PostgreSQL container:
+From the project root directory run the [script for downloading the VOC dataset](.download_dataset.sh):
+
+```bash
+bash download_dataset.sh
+```
+
+After that, build and start the PostgreSQL container:
 
 ```bash
 docker compose up -d --build
@@ -41,3 +47,9 @@ Now you can connect tot the database with your preferred database client using t
 | **Database** | `voc`       |
 | **Username** | `postgres`  |
 | **Password** | `postgres`  |
+
+## Query directory
+
+When the database is up fire queries:
+
+[directory for queries](./queries/)

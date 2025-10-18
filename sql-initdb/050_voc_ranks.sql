@@ -26,7 +26,7 @@ COPY voc.voc_ranks (
     rank_description_eng,
     median_wage
 )
-FROM '/csv/voc_ranks.csv'
+FROM '/unzipped/enriched/voc_ranks.csv'
 WITH (
     FORMAT csv,
     HEADER true,

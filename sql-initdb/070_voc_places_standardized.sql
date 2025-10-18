@@ -24,7 +24,7 @@ COPY voc_raw.voc_places_standardized (
     longitude,
     region
 )
-FROM '/csv/voc_places_standardized.csv'
+FROM '/unzipped/enriched/voc_places_standardized.csv'
 WITH (
     FORMAT csv,
     HEADER true,

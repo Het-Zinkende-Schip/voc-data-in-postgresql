@@ -16,7 +16,7 @@ COPY voc_raw.voc_places (
     place_standardized_id,
     provenance
 )
-FROM '/csv/voc_places.csv'
+FROM '/unzipped/enriched/voc_places.csv'
 WITH (
     FORMAT csv,
     HEADER true,

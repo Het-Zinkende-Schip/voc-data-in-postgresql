@@ -19,7 +19,7 @@ COPY voc.voc_sources (
     source_type,
     das_voyage_id
 )
-FROM '/csv/voc_sources.csv'
+FROM '/unzipped/enriched/voc_sources.csv'
 WITH (
     FORMAT csv,
     HEADER true,

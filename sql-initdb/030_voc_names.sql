@@ -26,7 +26,7 @@ COPY voc.voc_names (
     family_name_prefix_normalized,
     family_name_normalized
 )
-FROM '/csv/voc_names.csv'
+FROM '/unzipped/enriched/voc_names.csv'
 WITH (
     FORMAT csv,
     HEADER true,

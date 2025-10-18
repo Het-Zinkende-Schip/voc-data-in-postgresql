@@ -26,7 +26,7 @@ COPY voc.voc_beneficiaries (
     vocop_id,
     uid
 )
-FROM '/csv/voc_beneficiaries.csv'
+FROM '/unzipped/enriched/voc_beneficiaries.csv'
 WITH (
     FORMAT csv,
     HEADER true,

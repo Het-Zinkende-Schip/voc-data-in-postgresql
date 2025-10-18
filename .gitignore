@@ -1,1 +1,2 @@
-dataset/csv/unzipped/
+dataset_download/*
+dataset_unzipped/*
