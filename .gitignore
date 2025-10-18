@@ -1,5 +1,1 @@
-voc_postgres_db/dataset/csv/external
-voc_postgres_db/dataset/csv/intermediary
-voc_postgres_db/dataset/csv/original
-voc_postgres_db/dataset/csv/VOC_Dataset.zip
-voc_postgres_db/dataset/csv/enriched/codebooks
+dataset/csv/unzipped/
