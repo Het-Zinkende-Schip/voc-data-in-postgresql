@@ -8,6 +8,7 @@ services:
       - ./sql-initdb:/docker-entrypoint-initdb.d
       - ./dataset_download:/download
       - ./dataset_unzipped:/unzipped
+      - ./extra_data/:/extra_data
       - pgdata:/var/lib/postgresql/data
     environment:
       POSTGRES_PASSWORD: postgres

@@ -1,36 +1,47 @@
 # Wie reisde er meer dan 1 keer?
 
+De view person_summary laat zien hoe vaak personen die geclusterd konden worden op vocop_id hebben gereisd.
+
 ```sql
 SELECT * FROM voc.person_summary
 ```
-Interessante i's
+
+person_cluster_id=3895 (maakt veel reizen)
+
+Interessante id's
+
+Joseph Corties
 
 person_cluster_id=43627 (maakt overstap)
 
-person_cluster_id=3895 (maakt veel reizen)
+
 
 ```sql
 SELECT
     vpc.person_cluster_id,
     vpc.vocop_id,
+    vps.place_standardized_id,
     vn.full_name_normalized,
     vr.rank_nl,
-    vvoy.voyage_type,
-    vvoy.das_voyage_id,
     ps.num_contracts,
     vpc.person_cluster_row,
+    vpc.reason_end_contract,
+    vvoy.direction,
     vvoy.chamber,
     vvoy.ship_name,
     vvoy.ship_tonnage,
-    vvoy.direction,
+    vvoy.voyage_type,
     vvoy.departure_date,
     vvoy.arrival_date_cape,
     vvoy.departure_date_cape,
     vvoy.arrival_date,
     vvoy.departure_place,
     vvoy.arrival_place,
+    vvoy.das_voyage_id,
     vr.*
 FROM voc.voc_persons_contracts vpc
+LEFT JOIN voc.voc_places vp ON vp.place_id = vpc.place_id
+LEFT JOIN voc.voc_places_standardized vps ON vp.place_standardized_id = vps.place_standardized_id
 LEFT JOIN voc.voc_names vn ON vn.vocop_id = vpc.vocop_id
 LEFT JOIN voc.voc_ranks vr ON vr.rank_id = vpc.rank_id
 LEFT JOIN LATERAL (
@@ -44,8 +55,8 @@ LEFT JOIN LATERAL (
 ) vvoy ON TRUE
 LEFT JOIN voc.person_summary ps
 ON ps.person_cluster_id = vpc.person_cluster_id
-WHERE vpc.person_cluster_id = '43627'
-ORDER BY vpc.person_cluster_row, vvoy.departure_date
+WHERE vpc.person_cluster_id = '3895'
+ORDER BY vpc.person_cluster_row, vvoy.departure_date;
 ```
 
 |person_cluster_id|vocop_id |full_name_normalized|rank_nl        |voyage_type |das_voyage_id|num_contracts|person_cluster_row|chamber  |ship_name        |ship_tonnage|direction|departure_date|arrival_date_cape|departure_date_cape|arrival_date|departure_place|arrival_place|rank_id|rank             |parent_rank  |category|subcategory              |hisco |hisco_uri                                             |rank_nl        |rank_description_nl                                                                                                                     |rank_description_eng                                                                                                                |median_wage|
