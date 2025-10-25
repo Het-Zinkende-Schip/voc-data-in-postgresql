@@ -26,9 +26,10 @@ From the project root directory run the [script for downloading the VOC dataset]
 bash download_dataset.sh
 ```
 
-After that, build and start the PostgreSQL container:
+After that, create a `.env` file and build and start the PostgreSQL container:
 
 ```bash
+cp .env.example .env
 docker compose up -d --build
 ```
 

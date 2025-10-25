@@ -1,3 +1,4 @@
 dataset_download/*
 dataset_unzipped/*
 dataset/csv/enriched/
+.env
